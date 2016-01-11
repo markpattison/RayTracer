@@ -9,8 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viewer", "Viewer\Viewer.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{4F8F2789-5108-4A01-A8B5-149103F398D3}"
 	ProjectSection(SolutionItems) = preProject
-		paket.dependencies = paket.dependencies
 		.paket\paket.bootstrapper.exe = .paket\paket.bootstrapper.exe
+		paket.dependencies = paket.dependencies
 	EndProjectSection
 EndProject
 Global
