@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RayTracer", "RayTracer\RayTracer.fsproj", "{0E939AFD-620A-4AB2-9200-F116AE137FD9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viewer", "Viewer\Viewer.csproj", "{99265CDF-C383-44F2-9250-BA3A3E3D471C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{4F8F2789-5108-4A01-A8B5-149103F398D3}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		.paket\paket.bootstrapper.exe = .paket\paket.bootstrapper.exe
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
